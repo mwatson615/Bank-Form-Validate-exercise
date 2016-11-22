@@ -1,0 +1,63 @@
+/*Page-wide*/
+
+body {
+	background-color: slategrey;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*Classes*/
+
+.container {
+	flex-direction: column;
+}
+
+.basicDemo {
+	text-align: center;
+	margin: 2% 0 5% 0;
+}
+
+.addressAndOccupation {
+	text-align: center;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.job {
+	text-align: center;
+}
+
+.typeOfLoan {
+	text-align: center;
+}
+
+.specialConditions {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.comments {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contact {
+	text-align: center;
+	justify-content: space-between;
+}
+
+.contact input:valid:focus {
+	color: green;
+}
+
+.contact input:invalid {
+	color: red;
+}
+
